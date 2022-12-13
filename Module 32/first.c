@@ -4,7 +4,7 @@ int powerfun(int n, int m)
 {
     if(m==0) return 1;
 
-    return 2*powerfun(n,m-1);
+    return n*powerfun(n,m-1);
 }
 
 int main()
